@@ -27,16 +27,7 @@ int search(int a[],int n,int key)
     {
         if(a[i]==key)
         {
-            pos=i;
-            break;
+            return i;
         }
-    }
-    if(pos==-1)
-    {
-        return 0;
-    }
-    else
-    {
-        return pos;
-    }
-}
+        else 
+             return -1;
