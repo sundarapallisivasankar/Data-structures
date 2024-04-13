@@ -14,7 +14,7 @@ int main()
     printf("enter the key element");
     scanf("%d",&key);
     pos=search(a,n,key);
-    if(pos==0)
+    if(pos==-1)
         printf("search is unsuccessful");
     else
         printf("Key is found at index %d",pos);
@@ -22,7 +22,7 @@ int main()
 
 int search(int a[],int n,int key)
 {
-    int i,pos=-1;
+    int i;
     for(i=0;i<n;i++)
     {
         if(a[i]==key)
