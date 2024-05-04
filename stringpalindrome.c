@@ -23,7 +23,7 @@ int isPalindrome(char str[])
 	if(n%2==1)
 		i=(n/2)+1;
 	else
-        i=n/2;	
+        	i=n/2;	
 	while(str[i]!='\0')
 	{
 		char item=pop();
