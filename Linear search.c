@@ -31,3 +31,5 @@ int search(int a[],int n,int key)
         }
         else 
              return -1;
+    }
+}
